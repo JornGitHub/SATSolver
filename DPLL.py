@@ -1,5 +1,5 @@
 import sys
-from heuristics import DPLL
+from extensions import heuristics, CDCL
 import datetime
 import time
 
@@ -9,28 +9,34 @@ sys.setrecursionlimit(1000)
 def main(argv, heuristic):
     if argv[0] == '-H1':
         print('Using: Random Split Heuristic.')
-        sat_solver = DPLL(argv[1])
+        sat_solver = heuristics.DPLL(argv[1])
         sat_solver.split = 1
     elif heuristic == '-H1':
         print('Using: Random Split Heuristic.')
-        sat_solver = DPLL(argv)
+        sat_solver = heuristics.DPLL(argv)
         sat_solver.split = 1
     elif argv[0] == '-H2':
         print('Using: Jeroslow-Wang Heuristic.')
-        sat_solver = DPLL(argv[1])
+        sat_solver = heuristics.DPLL(argv[1])
         sat_solver.split = 2
     elif heuristic == '-H2':
         print('Using: Jeroslow-Wang Heuristic.')
-        sat_solver = DPLL(argv)
+        sat_solver = heuristics.DPLL(argv)
         sat_solver.split = 2
     elif argv[0] == '-H3':
         print('Using: Last Encountered Free Variable.')
-        sat_solver = DPLL(argv[1])
+        sat_solver = heuristics.DPLL(argv[1])
         sat_solver.split = 3
     elif heuristic == '-H3':
         print('Using: Last Encountered Free Variable.')
-        sat_solver = DPLL(argv)
+        sat_solver = heuristics.DPLL(argv)
         sat_solver.split = 3
+    elif argv[0] == '-H4':
+        print('Using: Conflict Driven Clause Learning.')
+        sat_solver = CDCL.CDCL(argv[1])
+    elif heuristic == '-H4':
+        print('Using: Conflict Driven Clause Learning.')
+        sat_solver = CDCL.CDCL(argv)
     else:
         print('Incorrect input. try calling again with the following format:')
         print("for Linux: 'sh SAT.sh -Hx DIMACS-file'")

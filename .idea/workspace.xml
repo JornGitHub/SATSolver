@@ -1,14 +1,54 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e78b4475-23a7-420b-b4a4-f4772482e470" name="Default Changelist" comment="" />
+    <list default="true" id="e78b4475-23a7-420b-b4a4-f4772482e470" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DPLL.py" beforeDir="false" afterPath="$PROJECT_DIR$/DPLL.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DPLLoop.py" beforeDir="false" afterPath="$PROJECT_DIR$/DPLLoop.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/graphs/backtrack_graph.png" beforeDir="false" afterPath="$PROJECT_DIR$/graphs/backtrack_graph.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/heuristics.py" beforeDir="false" afterPath="$PROJECT_DIR$/extensions/heuristics.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/result-H1" beforeDir="false" afterPath="$PROJECT_DIR$/results/result-H1" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/result-H2" beforeDir="false" afterPath="$PROJECT_DIR$/results/result-H2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/result-H3" beforeDir="false" afterPath="$PROJECT_DIR$/results/result-H3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/solutions/sudoku1.out" beforeDir="false" afterPath="$PROJECT_DIR$/solutions/sudoku1.out" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/solutions/sudoku10.out" beforeDir="false" afterPath="$PROJECT_DIR$/solutions/sudoku10.out" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/solutions/sudoku2.out" beforeDir="false" afterPath="$PROJECT_DIR$/solutions/sudoku2.out" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/solutions/sudoku3.out" beforeDir="false" afterPath="$PROJECT_DIR$/solutions/sudoku3.out" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/solutions/sudoku4.out" beforeDir="false" afterPath="$PROJECT_DIR$/solutions/sudoku4.out" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/solutions/sudoku5.out" beforeDir="false" afterPath="$PROJECT_DIR$/solutions/sudoku5.out" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/solutions/sudoku6.out" beforeDir="false" afterPath="$PROJECT_DIR$/solutions/sudoku6.out" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/solutions/sudoku7.out" beforeDir="false" afterPath="$PROJECT_DIR$/solutions/sudoku7.out" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/solutions/sudoku8.out" beforeDir="false" afterPath="$PROJECT_DIR$/solutions/sudoku8.out" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/solutions/sudoku9.out" beforeDir="false" afterPath="$PROJECT_DIR$/solutions/sudoku9.out" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="$PROJECT_DIR$/.idea" />
+      </set>
+    </option>
+  </component>
   <component name="ProjectId" id="2HzavwvL52PewcRtzCGVZHwiAWd" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/extensions" />
+    </key>
+  </component>
   <component name="RunDashboard">
     <option name="ruleStates">
       <list>
@@ -33,5 +73,16 @@
       <updated>1669290600256</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>

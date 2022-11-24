@@ -86,7 +86,7 @@ def dpll_loop(start, stop, heuristic):
     return values
 
 start = 1
-heuristics = ['-H1', '-H2', '-H3']
+heuristics = ['-H1', '-H2', '-H3', '-H4']
 
 if sys.argv[1] == '1' or sys.argv[1] == '3':
     size = 9
@@ -94,7 +94,11 @@ if sys.argv[1] == '1' or sys.argv[1] == '3':
 if sys.argv[1] == '2' or sys.argv[1] == '4':
     size = 16
 
-stop = 3
+if sys.argv[1] == '1' or sys.argv[1] == '2':
+    stop = 1001
+
+if sys.argv[1] == '3' or sys.argv[1] =='4':
+    stop = 1501
 
 total_values = []
 
